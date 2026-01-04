@@ -1,0 +1,27 @@
+{
+  "name": "tddd27_2024",
+  "version": "1.0.0",
+  "description": "We propose the development of a dynamic auction website leveraging the MERN stack (MongoDB, Express.js, React.js, Node.js) with possible Firebase integration. Our platform aims to provide a secure auction experience, incorporating possible features such as role-based access control, real-time bidding, geolocation-based search filters, real-time communication, and a notification system.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon api/index.js",
+    "start": "node api/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.6",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.3.1",
+    "node-cron": "^3.0.3",
+    "nodemon": "^3.1.0",
+    "socket.io": "^4.7.5",
+    "ws": "^8.17.0"
+  }
+}
