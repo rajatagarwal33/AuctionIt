@@ -2,16 +2,17 @@
 
 ## Project Overview
 
-This project was developed as part of the **Advanced Web Programming** course at **Linkoping University**.
+This project is a **fully implemented dynamic auction website**, developed as part of the **Advanced Web Programming** course at **Linköping University**.
 
-The system was built **collaboratively by two students**:
-- **Rajag969**
+The system was developed **collaboratively by two students**:
+- **Rajat Agarwal (Rajag969)**
 - **Hampus (hamfo058)**
 
-Both contributors worked **collectively across the entire project**, including:
+Both contributors worked **jointly on the entire project**, covering:
 - Frontend development
 - Backend development
-- System design and feature implementation
+- Database design
+- Real-time features and system integration
 
 ---
 
@@ -25,33 +26,33 @@ Both contributors worked **collectively across the entire project**, including:
 
 ---
 
-## Proposal: Dynamic Auction Website
+## System Description
 
-We propose the development of a **dynamic auction platform** using the **MERN stack**:
+The application is a **full-stack auction platform** built using the **MERN stack** with **Firebase integration**:
 
-- **MongoDB**
-- **Express.js**
-- **React.js**
-- **Node.js**
+- **MongoDB** – persistent data storage
+- **Express.js** – backend API
+- **React.js** – frontend user interface
+- **Node.js** – server runtime
+- **Firebase** – authentication, real-time services, and notifications
 
-Optional integration with **Firebase** was explored where applicable.
-
-The goal of the platform is to provide a **secure, interactive, and real-time auction experience**, supporting modern web application features such as authentication, real-time updates, and user-specific functionality.
+The platform provides a **secure, interactive, and real-time auction experience** with role-based access and live updates.
 
 ---
 
-## Core Features
+## Implemented Features
 
 ### Role-Based Access Control (RBAC)
 
 - Users are assigned roles such as **buyer**, **seller**, or **admin**
-- Access to features and data is restricted based on role
-- Admins can manage users and permissions
+- Access to functionality and data is restricted based on role
+- Admins can manage user roles and permissions
 
 ### Real-Time Bidding
 
-- Users can place bids and see updates instantly
-- Enhances competitiveness and engagement during auctions
+- Bids are placed and reflected instantly
+- Users can see live bid updates without refreshing
+- Ensures competitive and transparent auctions
 
 ### Real-Time Communication
 
@@ -62,19 +63,21 @@ The goal of the platform is to provide a **secure, interactive, and real-time au
 
 - Users receive notifications for:
   - New bids
-  - Messages
-  - Listings matching preferences
-- Improves responsiveness and user engagement
+  - Incoming messages
+  - Listings matching user preferences
+- Implemented using Firebase services
 
 ---
 
 ## Technical Scope
 
 - **Frontend:** React-based user interface
-- **Backend:** Node.js and Express.js API
+- **Backend:** Node.js and Express.js REST API
 - **Database:** MongoDB
+- **Authentication & Real-Time Services:** Firebase
 - **Architecture:** Full-stack MERN application
-- **Collaboration:** Pair development across all layers of the system
+- **Collaboration Model:** Pair development across all layers of the system
 
 ---
+
 
